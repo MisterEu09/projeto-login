@@ -33,9 +33,12 @@ main{
     height: 400px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+    
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 #imagem{
-    background: #5f2c82 url(../imagens/img.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/img.jpg) no-repeat center center;
     background-size: cover;
     height: 200px;
     display: block;
