@@ -5,6 +5,7 @@
         background-image: linear-gradient(to top,  #49a09d,#5f2c82 );
     }
     #login{
+        height: 60vh;
         width: 80vw;
     }
     #imagem{
@@ -22,6 +23,7 @@
             background-image: linear-gradient(to top,  #49a09d,#5f2c82 );
         }
     #login{
+        height: 73vh;
         width: 950px;
     }
     #imagem{
