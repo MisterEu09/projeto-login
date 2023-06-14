@@ -37,6 +37,7 @@ main{
     transition: width .3s, height .3s;
     transition-timing-function: ease;
     transform: translate(-50%, -50%);
+
 }
 #imagem{
     background: #5f2c82 url(../imagens/img.jpg) no-repeat center center;

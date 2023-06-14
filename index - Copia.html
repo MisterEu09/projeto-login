@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/istyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+    <header>
+        <nav><a href="index.html">form1</a></nav>
+        <h1>SeiLá Survey Form</h1>
+        <p>Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma :)</p>
+    </header>
+    <form action="" id="formulario">
+        <div class="formGroup">
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome"
+            required
+            placeholder="Digite seu Nome"> 
+        </div>
+        <div class="formGroup">
+            <label for="iemail">Email</label>
+            <input type="email" name="email" id="iemail"
+            placeholder="Digite seu Email"
+            required> 
+        </div>
+        <div class="formGroup">
+            <label for="iidade">Idade <span>(opcional)</span></label>
+            <input type="number" name="idade" id="iidade" max="129" min="8" placeholder="Idade">
+        </div>
+        <div class="formGroupv">
+            <label for="ifuncao">Qual opção melhor descreve sua função atual?</label><br>
+            <select name="funca" id="ifuncao"class="formControl">
+                <option disable selected value>Selecione a função atual</option>
+                <option value="Est">EStudante</option>
+                <option value="FullJob">Trabaho de tempo integral</option>
+                <option value="FullLearn">EStudo de tempo integral</option>
+                <option value="prefereNo">Prefiro não dizer</option>
+                <option value="other">Outro</option>
+            </select>
+        </div>
+        <div class="formGroup" id="formRadio">
+            <p>Você recomendaria o SeiLá a um amigo???</p>
+            <input type="radio" class="radio" name="recomendaria" id="definitivamente" > <label for="definitivamente">Definitivamente</label> <br>
+            <input type="radio" class="radio" name="recomendaria" id="talvez"> <label for="talvez">talvez</label> <br>
+            <input type="radio" class="radio" name="recomendaria" id="no">
+            <label for="no">Claro que não</label>
+        </div>
+        <br>
+        <div class="formGroup">
+            <label for="irecurso">Qual é o seu recurso favorito do SeiLá</label>
+            <select name="recurso" id="irecurso" class="formControl">
+                <option disable selected value>Selecione uma opção</option>
+                <option value="Dsf">Desafios</option>
+                <option value="Prj">Projetos</option>
+                <option value="Cmdd">Comunidade</option>
+                <option value="Cdg">Código aberto</option>
+            </select>
+        </div>
+        <div class="formGroup">
+            <p>o que você gostaria que melhorasse
+                <span>(Marque tudo que se aplique)</span>
+            </p>
+            <label><input type="checkbox" class="chek" name="prefere" id="FrontEndProjects">Projetos FrontEnd
+            </label> 
+            <label><input type="checkbox" class="chek" name="prefere" id="BackEndProjects">Projetos BackEnd</label>
+            <label><input type="checkbox" class="chek"  name="prefere" id="VisualizacaoDados">Visualização de Dados</label>
+            <label><input type="checkbox" class="chek" name="prefere" id="Desafios">Desafios</label>
+            <label><input type="checkbox" class="chek" name="prefere" id="ComunnidadeCodeAberto">Comunidade Codigo Aberto</label>
+                   <label> <input type="checkbox" class="chek" name="prefere" id="HelpRoom">Salas de Ajuda</label>
+            <label><input type="checkbox"class="chek"  name="prefere" id="Videos">Videos</label>
+            <label><input type="checkbox" class="chek" name="prefere" id="CityMeetups">CityMeetups</label>
+            <label><input type="checkbox"class="chek"  name="prefere" id="Wiki">Wiki</label>
+            <label><input type="checkbox"class="chek"  name="prefere" id="Forum">Forum</label>
+            <label><input type="checkbox"class="chek"  name="prefere" id="AddCourses">Cursos Adicionais</label>
+        <div class="formGroup">
+            </div>
+            <p>Algum Comnetraio ou sugestão??</p>
+            <textarea name="suggestion" id="isug" cols="30" rows="10" placeholder="Digite seu comentario aqui"></textarea>
+        </div>
+        <button type="submit"> Enviar</button>
+
+    </form>
+
+   </div>
+</body>
+</html>
